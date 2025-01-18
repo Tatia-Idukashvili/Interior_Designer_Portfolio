@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Designer Website Template</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <div class="brand-area">
+            <a href="./index.html">SYDNEY OLIVER</a>
+        </div>
+        <div class="burger-menu">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="./index.html">Home</a> 
+                <a href="./index.html#about">About</a> 
+                <a href="./index.html#portfolio">Portfolio</a>
+                <a href="./index.html#clients">Clients</a> 
+                <a href="./index.html#contact">Contact</a> 
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li> 
+                <li><a href="./index.html#about">About</a></li> 
+                <li><a href="./index.html#portfolio">Portfolio</a></li>
+                <li><a href="./index.html#clients">Clients</a></li> 
+                <li><a href="./index.html#contact">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <div id="project-details">
+        <div class="pd-title">
+            <h1 id="project-title"></h1>
+            <p id="project-description"></p>
+        </div>
+
+        <div class="image-div">
+            <img id="project-image" alt="Project Image">
+        </div>
+
+        <div class="navigation">
+            <div id="prev-project" class="nav-button">
+                <i class="fa-solid fa-angle-left"></i> Previous Project
+            </div>
+            <div id="next-project" class="nav-button">
+                Next Project <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>        
+    </div>
+
+    <footer>
+        <div class="socials">
+            <a href="https://www.facebook.com/wix" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/wix" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/wix/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <p><i>© 2035 by Sydney Oliver. Powered and secured by <a href="https://www.wix.com/?utm_campaign=vir_created_with" target="_blank">Wix</a></i></p>
+    </footer>
+      
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+
+    <script src="./Javascript Files/project_details.js"></script>
+    <script src="./Javascript Files/scroll_to_top_btn.js"></script>
+    <script src="./Javascript Files/responsive_header.js"></script>
+</body>
+</html>
