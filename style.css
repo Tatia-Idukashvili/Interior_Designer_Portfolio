@@ -370,7 +370,7 @@ footer p{
     /* Portfolio Section */
     #portfolio{
         height: 4200px;
-        padding: 0px 0px;
+        /* padding: 0px 30px; */
     }
     .projects{
         flex-direction: column;
@@ -382,7 +382,7 @@ footer p{
     /* Project Details Page */
     #project-details{
         height: 620px;
-        margin: 0px 30px;
+        /* margin: 0px 30px; */
     }
     .pd-title{
         height: 210px;
