@@ -360,7 +360,7 @@ footer p{
     /* About Section */
     #about{
         height: 600px;
-        margin: 0px 60px;
+        margin: 0px 50px;
     }
     #about p{
         font-size: 19px;
@@ -375,7 +375,7 @@ footer p{
         flex-direction: column;
     }
     .overlay-container {
-        width: 390px;
+        width: 385px;
         height: 400px;
     }
     /* Project Details Page */
@@ -393,12 +393,12 @@ footer p{
     }
     /* Clients Section */
     #clients{
-        height: 480px;
-        margin: 0px 70px;
+        height: 460px;
+        margin: 0px 60px;
     }    
     /* Contact Section */
     #contact{
-        height: 700px;
+        height: 800px;
     }
     #contact p{
         font-size: 18px;
