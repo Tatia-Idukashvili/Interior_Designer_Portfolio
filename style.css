@@ -348,7 +348,7 @@ footer p{
     }
     .image-area-text{
         top: 40%;
-        left: 8%;
+        left: 7%;
     }
     .image-area-text h1{
         font-size: 40px;
@@ -360,7 +360,7 @@ footer p{
     /* About Section */
     #about{
         height: 600px;
-        margin: 0px 70px;
+        margin: 0px 60px;
     }
     #about p{
         font-size: 19px;
@@ -375,7 +375,7 @@ footer p{
         flex-direction: column;
     }
     .overlay-container {
-        width: 400px;
+        width: 390px;
         height: 400px;
     }
     /* Project Details Page */
@@ -393,7 +393,8 @@ footer p{
     }
     /* Clients Section */
     #clients{
-        height: 430px;
+        height: 480px;
+        margin: 0px 70px;
     }    
     /* Contact Section */
     #contact{
