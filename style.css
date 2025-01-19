@@ -322,7 +322,6 @@ footer p{
     /* Home Page */
     header{
         padding: 0px 35px;
-        background-color: aqua;
     }
     nav {
         display: none;
@@ -362,7 +361,6 @@ footer p{
     #about{
         height: 600px;
         margin: 0px 70px;
-        background-color: blueviolet;
     }
     #about p{
         font-size: 19px;
@@ -372,13 +370,12 @@ footer p{
     #portfolio{
         height: 4200px;
         padding: 0px 0px;
-        background-color: brown;
     }
     .projects{
         flex-direction: column;
     }
     .overlay-container {
-        width: 410px;
+        width: 400px;
         height: 400px;
     }
     /* Project Details Page */
@@ -397,12 +394,10 @@ footer p{
     /* Clients Section */
     #clients{
         height: 430px;
-        background-color: yellowgreen;
     }    
     /* Contact Section */
     #contact{
         height: 700px;
-        background-color: yellow;
     }
     #contact p{
         font-size: 18px;
