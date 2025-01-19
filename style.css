@@ -110,7 +110,8 @@ li:hover{
 }
 /* About Section */
 #about{
-    height: 380px;
+    height: 368px;
+    margin: 0px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,6 +322,7 @@ footer p{
     /* Home Page */
     header{
         padding: 0px 35px;
+        background-color: aqua;
     }
     nav {
         display: none;
@@ -358,8 +360,9 @@ footer p{
     }
     /* About Section */
     #about{
-        height: 630px;
-        padding: 0px 40px;
+        height: 600px;
+        margin: 0px 70px;
+        background-color: blueviolet;
     }
     #about p{
         font-size: 19px;
@@ -369,6 +372,7 @@ footer p{
     #portfolio{
         height: 4200px;
         padding: 0px 0px;
+        background-color: brown;
     }
     .projects{
         flex-direction: column;
@@ -380,7 +384,7 @@ footer p{
     /* Project Details Page */
     #project-details{
         height: 620px;
-        /* margin: 0px 30px; */
+        margin: 0px 30px;
     }
     .pd-title{
         height: 210px;
@@ -392,12 +396,13 @@ footer p{
     }
     /* Clients Section */
     #clients{
-        height: 500px;
-        margin: 0px 40px;
+        height: 430px;
+        background-color: yellowgreen;
     }    
     /* Contact Section */
     #contact{
         height: 700px;
+        background-color: yellow;
     }
     #contact p{
         font-size: 18px;
@@ -405,13 +410,7 @@ footer p{
     .ip{
         flex-direction: column;
     }
-    .ip input{
-        width: 300px;
-    }    
     .ip button{
         font-size: 16px;
-    }
-    footer p{
-        font-size: 14px;
     }
 }
