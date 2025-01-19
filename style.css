@@ -399,6 +399,7 @@ footer p{
     /* Contact Section */
     #contact{
         height: 800px;
+        margin-top: 20px;
     }
     #contact p{
         font-size: 18px;
