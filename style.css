@@ -394,12 +394,12 @@ footer p{
     /* Clients Section */
     #clients{
         height: 460px;
-        margin: 0px 60px;
+        margin: 0px 65px;
     }    
     /* Contact Section */
     #contact{
         height: 800px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     #contact p{
         font-size: 18px;
