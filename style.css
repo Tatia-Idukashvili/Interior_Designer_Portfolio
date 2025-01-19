@@ -374,7 +374,6 @@ footer p{
     }
     .projects{
         flex-direction: column;
-        margin: 0px 20px;
     }
     .overlay-container {
         width: 410px;
