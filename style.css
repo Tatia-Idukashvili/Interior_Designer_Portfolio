@@ -111,7 +111,8 @@ li:hover{
 /* About Section */
 #about{
     height: 368px;
-    margin: 0px 80px;
+    /* margin: 0px 80px; */
+    /* padding: 0px 80px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,7 +361,7 @@ footer p{
     /* About Section */
     #about{
         height: 630px;
-        margin: 0px 40px;
+        padding: 0px 40px;
     }
     #about p{
         font-size: 19px;
