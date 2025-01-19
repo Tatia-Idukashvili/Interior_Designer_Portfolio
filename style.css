@@ -359,8 +359,8 @@ footer p{
     }
     /* About Section */
     #about{
-        height: 600px;
-        margin: 0px 70px;
+        height: 630px;
+        margin: 0px 40px;
     }
     #about p{
         font-size: 19px;
@@ -369,7 +369,7 @@ footer p{
     /* Portfolio Section */
     #portfolio{
         height: 4200px;
-        padding: 0px 0px;
+        padding: 0px 30px;
     }
     .projects{
         flex-direction: column;
@@ -393,7 +393,8 @@ footer p{
     }
     /* Clients Section */
     #clients{
-        height: 430px;
+        height: 500px;
+        margin: 0px 40px;
     }    
     /* Contact Section */
     #contact{
@@ -405,7 +406,13 @@ footer p{
     .ip{
         flex-direction: column;
     }
+    .ip input{
+        width: 300px;
+    }    
     .ip button{
         font-size: 16px;
+    }
+    footer p{
+        font-size: 14px;
     }
 }
