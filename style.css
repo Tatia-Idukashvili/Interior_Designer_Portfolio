@@ -370,7 +370,7 @@ footer p{
     /* Portfolio Section */
     #portfolio{
         height: 4200px;
-        /* padding: 0px 30px; */
+        padding: 0px 0px;
     }
     .projects{
         flex-direction: column;
